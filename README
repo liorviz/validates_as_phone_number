@@ -1,5 +1,5 @@
-                            ValidatesAsPhoneNumber
-                            ======================
+ValidatesAsPhoneNumber
+======================
 
 This Ruby on Rails plugin implements an ActiveRecord validation helper called
 validates_as_phone_number which validates US phone numbers. The helper acts as
