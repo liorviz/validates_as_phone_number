@@ -31,8 +31,7 @@ Usage:
 In your model file do something like:
 
 class MyClass < ActiveRecord::Base
-  validates_presence_of :work_number
-  validates_as_phone_number :work_number
+  validates_as_phone_number :work_phone, :message => 'Invalid work phone number format', :allow_nil => true
 end
 
 Tests:
