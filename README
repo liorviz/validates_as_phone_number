@@ -2,7 +2,7 @@ ValidatesAsPhoneNumber
 ======================
 
 This Ruby on Rails plugin/gem implements an ActiveRecord validation helper called
-validates_as_phone_number which validates US phone numbers. The helper acts as
+validates_as_phone_number which validates U.S. phone numbers. The helper acts as
 if validates_format_of was used with a regular expression that defines:
 
 (000) 000 0000
@@ -17,6 +17,13 @@ if validates_format_of was used with a regular expression that defines:
 
 Installation:
 =============
+gem sources -a http://gems.github.com
+
+Install the gem(s):
+sudo gem install gbdev-validates_as_phone_number
+
+Add to environment.rb initializer block:
+config.gem 'gbdev-validates_as_phone_number', :version => '>=0.7.3', :lib => 'validates_as_phone_number', :source => 'http://gems.github.com'
 
 
 Usage:
@@ -34,4 +41,4 @@ Some tests have been added.
 
 License:
 ========
-See the LICENSE file
+See the LICENSE file.
