@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   
   s.name = 'validates_as_phone_number'
-  s.version = '0.6.0'
+  s.version = '0.7.0'
   s.date = '2008-08-15'
   
   s.summary = "Validate format of U.S. phone numbers for Rails"
@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
              "README",
              "Rakefile",
              "init.rb",
+             "validates_as_phone_number.gemspec",
              "lib/validates_as_phone_number.rb",
              "test/validates_as_phone_number_test.rb"]
              
