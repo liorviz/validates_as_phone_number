@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   
   s.name    = 'validates_as_phone_number'
-  s.version = '0.7.2'
+  s.version = '0.7.3'
   s.date    = '2008-08-15'
   
   s.summary     = 'Rails gem to validate format of U.S. phone numbers'
@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   
   s.authors  = ['Wes Hays', 'John Dell']
   s.email    = 'gems@gbdev.com'
-  s.homepage = 'http://github.com/spovich/validates_as_phone_number'
+  s.homepage = 'http://github.com/gbdev/validates_as_phone_number'
   
   s.files = ['CHANGELOG',
              'LICENSE',
