@@ -1,10 +1,10 @@
-0.5 (Aug 15th, 2008)
+0.6.0 - Aug 15th, 2008
  *  Gem'ified plugin
  *  Move to github
 
-0.2 (Jan 30th, 2008)
+0.2.0 - Jan 30th, 2008
  *  RegEx was updated to accomodate different delimiters and extensions
  *  length of extension increased to allow 7 digits
 
-0.1 (Aug 25th, 2006)
+0.1.0 - Aug 25th, 2006
  *  First release
