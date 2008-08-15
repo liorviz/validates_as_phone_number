@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
              "Rakefile",
              "init.rb",
              "lib/validates_as_phone_number.rb",
-             "test test/validates_as_phone_number_test.rb"]
+             "test/validates_as_phone_number_test.rb"]
              
   s.test_files = ["test/validates_as_phone_number_test.rb"]
   
