@@ -1,0 +1,37 @@
+                            ValidatesAsPhoneNumber
+                            ======================
+
+This Ruby on Rails plugin implements an ActiveRecord validation helper called
+validates_as_phone_number which validates US phone numbers. The helper acts as
+if validates_format_of was used with a regular expression that defines:
+
+(000) 000 0000
+(000) 000-0000
+000.000.0000
+000-000-0000
+000-0000
+000-000-0000x000 (extension can be up to 7 digits)
+000-000-0000 x1234567 (extension can be up to 7 digits with or without leading space before 'x')
+000-0000x000 (extension can be up to 7 digits)
+
+
+Installation:
+=============
+
+
+Usage:
+======
+In your model file do something like:
+
+class MyClass < ActiveRecord::Base
+  validates_presence_of :work_number
+  validates_as_phone_number :work_number
+end
+
+Tests:
+======
+Some tests have been added.
+
+License:
+========
+See the LICENSE file
