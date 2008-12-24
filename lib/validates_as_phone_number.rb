@@ -16,7 +16,7 @@ module ActiveRecord
   module Validations
     module ClassMethods
       def validates_as_phone_number(*attr_names)
-        regExpStr = '(([0-9]{3})|((\()([0-9]{3})(\))))?([\s\.-])?([0-9]{3})([\s\.-])?([0-9]{4})([\s\.-])?([x][0-9]{1,7})?'
+        regExpStr = '(([0-9]{3})|((\()([0-9]{3})(\))))?([\s\.-])?([0-9]{3})([\s\.-])?([0-9]{4})([\s\.-])?([x] ?[0-9]{1,7})?'
         configuration = {
           :message   => 'is an invalid phone number',
           :with      => /^#{regExpStr}$/,
