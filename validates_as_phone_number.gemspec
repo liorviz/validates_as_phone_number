@@ -1,15 +1,15 @@
 Gem::Specification.new do |s|
   
   s.name    = 'validates_as_phone_number'
-  s.version = '0.7.3'
-  s.date    = '2008-08-15'
+  s.version = '0.7.4'
+  s.date    = '2008-12-24'
   
   s.summary     = 'Rails gem to validate format of U.S. phone numbers'
   s.description = 'Rails gem that implements an ActiveRecord validation helper called validates_as_phone_number which validates U.S. phone numbers'
   
-  s.authors  = ['Wes Hays', 'John Dell']
-  s.email    = 'gems@gbdev.com'
-  s.homepage = 'http://github.com/gbdev/validates_as_phone_number'
+  s.authors  = ['Wes Hays', 'John Dell', 'Josh Susser', 'Brandon Keene']
+  s.email    = 'opensource@pivotallabs.com'
+  s.homepage = 'http://github.com/pivotal/validates_as_phone_number'
   
   s.files = ['CHANGELOG',
              'LICENSE',
@@ -22,5 +22,4 @@ Gem::Specification.new do |s|
   s.test_files = ['test/validates_as_phone_number_test.rb']
 
   s.has_rdoc = false
-  
 end
