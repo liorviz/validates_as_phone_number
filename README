@@ -20,10 +20,10 @@ Installation:
 gem sources -a http://gems.github.com
 
 Install the gem(s):
-sudo gem install pivotal-validates_as_phone_number
+sudo gem install gbdev-validates_as_phone_number
 
 Add to environment.rb initializer block:
-config.gem 'pivotal-validates_as_phone_number', :version => '>=0.7.4', :lib => 'validates_as_phone_number', :source => 'http://gems.github.com'
+config.gem 'gbdev-validates_as_phone_number', :version => '>=0.7.5', :lib => 'validates_as_phone_number', :source => 'http://gems.github.com'
 
 
 Usage:
